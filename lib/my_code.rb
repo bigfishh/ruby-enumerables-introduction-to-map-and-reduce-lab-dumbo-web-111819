@@ -13,7 +13,7 @@ def map_to_no_change(source_array)
   index = 0 
   nc_array = []
   while index < source_array.length do 
-    neg_array << source_array[index]
+    nc_array << source_array[index]
     index += 1 
   end 
   nc_array
